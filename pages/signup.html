@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body bgcolor="#040720">
+    <table align="center" width="95%" bgColor="#040720">
+        <thead>
+            <tr>
+                <td align="left" height="50px" colspan="3" width="50%">
+                    <a href="../index.html">
+                        <img height="100%" src="../images/squadmlogowhite.png" height="100%"alt="website logo">
+                    </a>
+                </td>
+                <td align="right" colspan="3"><font color="white">
+                    <a href="../index.html"><font color="white">Home</font></a> |
+                    <a href="reviews.html"><font color="white">Reviews</font></a> |
+                    <a href="aboutus.html"><font color="white">About Us</font></a> |
+                    <a href="contact.html"><font color="white">Contact Us</font></a></font>
+                </td>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td colspan="6" align="center">
+                    <h1><font color="white"><hr>Sign Up<hr></font></h1>
+                    <h4><font color="white">You Will Automatically Register for our Weekly Newsletter When You SignUp</font></h4>
+                </td>
+            </tr>
+        </tbody>
+            <table width="60%" align="center">
+            <tr>
+                
+                <td colspan="4" bgcolor="#4682B4" align="center">
+                    <form align="center">
+                        <fieldset>
+                            <legend align="center">Personal Info</legend>
+                            <label for="firstname">First Name: </label>
+                            <input type="text" name="firstname" id="firstname" required>
+                            <br><br>
+                            <label for="lastname">Last Name: </label>
+                            <input type="text" name="lastname" id="lastname">
+                            <br><br>
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <br><br>
+                            <label for="email">Confirm Email: </label>
+                            <input type="email" name="email" id="email"placeholder="Email" required>
+                            <br><br>
+                            <label for="password">Password: </label>
+                            <input type="password" name="password" id="password"placeholder="6 digit password" required>
+                            <br><br>
+                            <label for="password">Confirm password: </label>
+                            <input type="password" name="password" id="password"placeholder="6 digit password" required>
+                            <br><br>
+                            <label for="age">Age: </label>
+                            <input type="number" name="age" id="age" min="12" max="60">
+                            <!-- <input type="range" name="age" id="age" list="markers" min="10" max="60" width="100%">
+                                <datalist id="markers">
+                                <option value="10" label="10"></option>
+                                <option value="20" label="20"></option>
+                                <option value="30" label="30"></option>
+                                <option value="40" label="40"></option>
+                                <option value="50" label="50"></option>
+                                <option value="60" label="60"></option>
+                            </datalist> -->
+                            <br><br>
+                            <label for="gender">Gender: </label>
+                            <label for="male">
+                                <input type="radio" name="gender" id="male" value="male" checked> Male
+                            </label>  
+                            <label for="female">
+                                <input type="radio" name="gender" id="female" value="female"> Female
+                            </label> 
+                        </fieldset>
+                        </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                    <table width="60%" align="center">
+                        <tr>
+                            <td  colspan="4" bgcolor="#4682B4">
+                        <fieldset>
+                            <legend >Interests</legend>
+                            <label for="types">What kind of games do you like? </label>
+                            <br>
+                            <label for="action">
+                                <input type="checkbox" name="types" id="action" value="action"> Action
+                            </label>  
+                            <br>
+                            <label for="adventure">
+                                <input type="checkbox" name="types" id="adventure" value="adventure"> Adventure
+                            </label> 
+                            <br>
+                            <label for="rpg">
+                                <input type="checkbox" name="types" id="rpg" value="rpg"> RPG
+                            </label> 
+                            <br>
+                            <label for="strategy">
+                                <input type="checkbox" name="types" id="strategy" value="strategy"> Strategy
+                            </label> 
+                            <br>
+                            <label for="simulation">
+                                <input type="checkbox" name="types" id="simulation" value="simulation"> Simulation
+                            </label> 
+                            <br>
+                            <label for="sports">
+                                <input type="checkbox" name="types" id="sports" value="sports"> Sports
+                            </label> 
+                            <br>
+                            <label for="puzzle">
+                                <input type="checkbox" name="types" id="puzzle" value="puzzle"> Puzzle
+                            </label> 
+                            <br>
+                            <label for="multiplayer">
+                                <input type="checkbox" name="types" id="multiplayer" value="multiplayer"> Multiplayer
+                            </label> 
+                            
+                            <br><br>
+                            <label for="extra">Any other interests you would like to share?</label>
+                            <br>
+                            <textarea name="extra" id="extra" cols="50" rows="10"></textarea>                            
+                        </fieldset>
+                        <center>
+                            <br>
+                            <br>
+                            <button type="submit">Submit</button>
+                            <br>
+                            <br>
+                        </center>
+                    </form>
+                </td>
+                
+            </tr>
+        </table>
+        <table align="center">
+        <tfoot>
+            <tr>
+                <td colspan="6" bgcolor="#040720" align="center">
+                    <p><font color="white">AASTU &copy; 2022, All Rights Reserved</font></p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
